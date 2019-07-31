@@ -1,5 +1,5 @@
 - 本项目主要由react16、React-Router、react-redux7.1、webpack4、yarn1.6构成
 - 本项目采用antd UI框架
-- Echart实现常用图表功能
-- 基于百度Map SDK实现地图可视化常用功能
+- 本项目采用Echart实现常用图表功能
+- 本项目采用基于百度Map SDK实现地图可视化常用功能
 - 本项目依赖已删除，下载后请示yarn instaill安装、yarn start运行查看
