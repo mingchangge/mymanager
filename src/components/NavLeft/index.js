@@ -13,6 +13,9 @@ class NavLeft extends React.Component{
     componentWillMount() {
         const menuTree=this.renderMenu(MenuConfig);
         let currentKey=window.location.hash.replace(/#|\?.*$/g,'');
+        if(currentKey==='/'){
+            currentKey='/home'
+        }
         this.setState({
             currentKey,
             menuTreeNode:menuTree
